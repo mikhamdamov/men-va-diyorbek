@@ -5,3 +5,5 @@ git push -u origin main
 # mm
 git remote add origin https://github.com/mikhamdamov/mm.git
 git push -u origin main
+
+# mm
