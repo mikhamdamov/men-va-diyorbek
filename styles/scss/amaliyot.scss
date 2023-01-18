@@ -1,0 +1,71 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+header {
+  width: 1440px;
+  height: 100vh;
+  .container {
+    width: 1200px;
+    margin: 0 auto;
+    height: 100%;
+    padding: 10px;
+    display: grid;
+    grid-template-areas:
+      "headerr headerr headerr"
+      "menuu menuu diyorbek"
+      "menuu menuu footerr11"
+      "erkinov erkinov contentt"
+      "footerr footerr7 footerr8"
+      " footerr9 footerr10 footerr10 ";
+    gap: 10px;
+    .div {
+      &-1 {
+        background-color: rgb(8, 0, 255);
+        grid-area: headerr;
+      }
+      &-2 {
+        background-color: rgb(195, 255, 0);
+        grid-area: menuu;
+      }
+      &-3 {
+        background-color: rgb(0, 255, 119);
+        grid-area: diyorbek;
+      }
+      &-4 {
+        background-color: rgb(26, 139, 79);
+        grid-area: erkinov;
+      }
+      &-5 {
+        background-color: rgb(0, 200, 255);
+        grid-area: contentt;
+      }
+      &-6 {
+        background-color: rgb(255, 0, 238);
+        grid-area: footerr;
+      }
+      &-7 {
+        background-color: rgb(136, 183, 119);
+        grid-area: footerr7;
+      }
+      &-8 {
+        background-color: rgb(76, 0, 255);
+        grid-area: footerr8;
+      }
+      &-9 {
+        background-color: rgb(8, 0, 255);
+        grid-area: footerr9;
+      }
+      &-10 {
+        background-color: rgb(8, 0, 255);
+        grid-area: footerr9;
+      }
+      &-11 {
+        background-color: rgb(123, 255, 0);
+        grid-area: footerr11;
+      }
+    }
+  }
+}

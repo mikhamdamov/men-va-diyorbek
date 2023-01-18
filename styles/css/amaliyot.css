@@ -1,0 +1,64 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+header {
+  width: 1440px;
+  height: 100vh;
+}
+header .container {
+  width: 1200px;
+  margin: 0 auto;
+  height: 100%;
+  padding: 10px;
+  display: grid;
+  grid-template-areas: "headerr headerr headerr" "menuu menuu diyorbek" "menuu menuu footerr11" "erkinov erkinov contentt" "footerr footerr7 footerr8" " footerr9 footerr10 footerr10 ";
+  gap: 10px;
+}
+header .container .div-1 {
+  background-color: rgb(8, 0, 255);
+  grid-area: headerr;
+}
+header .container .div-2 {
+  background-color: rgb(195, 255, 0);
+  grid-area: menuu;
+}
+header .container .div-3 {
+  background-color: rgb(0, 255, 119);
+  grid-area: diyorbek;
+}
+header .container .div-4 {
+  background-color: rgb(26, 139, 79);
+  grid-area: erkinov;
+}
+header .container .div-5 {
+  background-color: rgb(0, 200, 255);
+  grid-area: contentt;
+}
+header .container .div-6 {
+  background-color: rgb(255, 0, 238);
+  grid-area: footerr;
+}
+header .container .div-7 {
+  background-color: rgb(136, 183, 119);
+  grid-area: footerr7;
+}
+header .container .div-8 {
+  background-color: rgb(76, 0, 255);
+  grid-area: footerr8;
+}
+header .container .div-9 {
+  background-color: rgb(8, 0, 255);
+  grid-area: footerr9;
+}
+header .container .div-10 {
+  background-color: rgb(8, 0, 255);
+  grid-area: footerr9;
+}
+header .container .div-11 {
+  background-color: rgb(123, 255, 0);
+  grid-area: footerr11;
+}/*# sourceMappingURL=amaliyot.css.map */
